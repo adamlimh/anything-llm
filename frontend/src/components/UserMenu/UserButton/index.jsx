@@ -89,7 +89,7 @@ export default function UserButton() {
                 window.localStorage.removeItem(AUTH_USER);
                 window.localStorage.removeItem(AUTH_TOKEN);
                 window.localStorage.removeItem(AUTH_TIMESTAMP);
-                window.location.replace(paths.home());
+                window.close();
               }}
               type="button"
               className="text-white hover:bg-theme-action-menu-item-hover w-full text-left px-4 py-1.5 rounded-md"
